@@ -31,16 +31,16 @@ A modern, full-stack clone of the Apollo 24/7 doctor consultation platform, buil
 ![Book Consultation](public/screenshots/Screenshot%202025-05-01%20214804.png)
 *Seamless booking interface for online or hospital consultations.*
 
-### 📱 Mobile Responsive View
+### 📱 Doctor Profile
 ![Mobile View](public/screenshots/Screenshot%202025-05-01%20214823.png)
 *Fully responsive design for a smooth experience on all devices.*
 
 
-### 🧰 Filters Panel
+### 🧰 About Page 
 ![Filters Panel](public/screenshots/Screenshot%202025-05-01%20214716.png)
 *Powerful filters for experience, fees, language, and consultation mode to find the perfect doctor.*
 
-### 🔎 Search Results
+### 🔎 
 ![Search Results](public/screenshots/Screenshot%202025-05-01%20214734.png)
 *Instant search results as you type, with highlighted matches and relevant doctor cards.*
 
