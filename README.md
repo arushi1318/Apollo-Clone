@@ -39,7 +39,7 @@ A modern, full-stack clone of the Apollo 24/7 doctor consultation platform, buil
 
 ### 🧰 About Page 
 ![Filters Panel](public/screenshots/Screenshot%202025-05-01%20214716.png)
-*Powerful filters for experience, fees, language, and consultation mode to find the perfect doctor.*
+*information about the application.*
 
 ### 🔎 
 ![Search Results](public/screenshots/Screenshot%202025-05-01%20214734.png)
