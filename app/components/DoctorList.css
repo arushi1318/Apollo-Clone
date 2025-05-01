@@ -1,0 +1,289 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+  padding: 24px;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.filter-sidebar {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  height: fit-content;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 24px;
+}
+
+.content-area {
+  min-width: 0;
+}
+
+.doctors-header {
+  margin-bottom: 32px;
+}
+
+.doctors-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #02475b;
+  margin-bottom: 8px;
+}
+
+.doctors-subtitle {
+  color: #5a6b7b;
+  font-size: 16px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.filter-header h3 {
+  color: #02475b;
+  margin: 0;
+  font-size: 20px;
+}
+
+.clear-all {
+  color: #0056d2;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.clear-all:hover {
+  background: #f0f7ff;
+}
+
+.show-near-me {
+  width: 100%;
+  padding: 12px;
+  background: #f0f7ff;
+  color: #0056d2;
+  border: 1px solid #0056d2;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.show-near-me:hover {
+  background: #e6f0ff;
+}
+
+.filter-section {
+  border-top: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+
+.filter-section h4 {
+  color: #475569;
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+.filter-section label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  color: #64748b;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-section input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.doctor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.doctor-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+}
+
+.doctor-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 24px;
+  border: 3px solid #f0f7ff;
+}
+
+.doctor-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.doctor-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #02475b;
+  margin: 0;
+}
+
+.doctor-specialty {
+  font-size: 16px;
+  color: #64748b;
+  margin: 0;
+}
+
+.doctor-stats {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.rating-badge {
+  display: inline-flex;
+  align-items: center;
+  background: #f0f7ff;
+  color: #0056d2;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.consultation-fee {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #02475b;
+  font-size: 16px;
+  font-weight: 600;
+  background: #f0f7ff;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.doctor-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 160px;
+}
+
+.consult-button {
+  background: #0056d2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.consult-button:hover {
+  background: #0047b3;
+  transform: translateY(-1px);
+}
+
+.view-profile-button {
+  background: white;
+  color: #0056d2;
+  border: 1px solid #0056d2;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.view-profile-button:hover {
+  background: #f0f7ff;
+}
+
+/* Loading Skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.skeleton-card {
+  height: 168px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.consultation-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: #f0fdf4;
+  color: #15803d;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.availability-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: #fff7ed;
+  color: #c2410c;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+} 

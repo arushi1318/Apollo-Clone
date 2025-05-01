@@ -1,0 +1,190 @@
+.profile-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.profile-content {
+  background: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  padding: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-header h2 {
+  margin: 0;
+  color: #02475b;
+  font-size: 24px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #64748b;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.close-button:hover {
+  background-color: #f1f5f9;
+}
+
+.profile-body {
+  padding: 24px;
+}
+
+.profile-image-section {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f0f7ff;
+}
+
+.profile-basic-info {
+  flex: 1;
+}
+
+.profile-basic-info h3 {
+  margin: 0 0 8px 0;
+  color: #02475b;
+  font-size: 24px;
+}
+
+.specialty {
+  color: #64748b;
+  margin: 0 0 12px 0;
+}
+
+.rating {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.rating-value {
+  background: #f0f7ff;
+  color: #0056d2;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.consultations {
+  color: #64748b;
+}
+
+.profile-details {
+  display: grid;
+  gap: 24px;
+}
+
+.detail-section {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.detail-section h4 {
+  margin: 0 0 16px 0;
+  color: #02475b;
+  font-size: 18px;
+}
+
+.detail-section p {
+  margin: 8px 0;
+  color: #475569;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #0056d2;
+  box-shadow: 0 0 0 3px rgba(0, 86, 210, 0.1);
+}
+
+.profile-footer {
+  padding: 20px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-button, .save-button {
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.edit-button {
+  background: #f0f7ff;
+  color: #0056d2;
+  border: 1px solid #0056d2;
+}
+
+.edit-button:hover {
+  background: #e6f0ff;
+}
+
+.save-button {
+  background: #0056d2;
+  color: white;
+  border: none;
+}
+
+.save-button:hover {
+  background: #0047b3;
+} 
