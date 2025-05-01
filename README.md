@@ -6,7 +6,7 @@ A modern, full-stack clone of the Apollo 24/7 doctor consultation platform, buil
 
 ## 🚀 Features
 
-- 🩺 Doctor listing with advanced filters (specialty, experience, fees, language, mode)
+- 🩺 Doctor listing with advanced filters (specialty, experience, fees, language, mode) 
 - 🔍 Real-time search functionality
 - 📱 Responsive, mobile-first design
 - 🗂️ Doctor profile view with details
