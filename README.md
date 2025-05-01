@@ -27,6 +27,15 @@ A modern, full-stack clone of the Apollo 24/7 doctor consultation platform, buil
 ![Doctor List](public/screenshots/Screenshot%202025-05-01%20214622.png)
 *Browse a comprehensive list of doctors with specialties, ratings, and quick filters.*
 
+### 🏥 Book Consultation
+![Book Consultation](public/screenshots/Screenshot%202025-05-01%20214804.png)
+*Seamless booking interface for online or hospital consultations.*
+
+### 📱 Mobile Responsive View
+![Mobile View](public/screenshots/Screenshot%202025-05-01%20214823.png)
+*Fully responsive design for a smooth experience on all devices.*
+
+
 ### 🧰 Filters Panel
 ![Filters Panel](public/screenshots/Screenshot%202025-05-01%20214716.png)
 *Powerful filters for experience, fees, language, and consultation mode to find the perfect doctor.*
@@ -39,13 +48,6 @@ A modern, full-stack clone of the Apollo 24/7 doctor consultation platform, buil
 ![Doctor Profile](public/screenshots/Screenshot%202025-05-01%20214749.png)
 *Detailed doctor profile with bio, experience, languages, and booking options.*
 
-### 🏥 Book Consultation
-![Book Consultation](public/screenshots/Screenshot%202025-05-01%20214804.png)
-*Seamless booking interface for online or hospital consultations.*
-
-### 📱 Mobile Responsive View
-![Mobile View](public/screenshots/Screenshot%202025-05-01%20214823.png)
-*Fully responsive design for a smooth experience on all devices.*
 
 ---
 
