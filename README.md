@@ -20,7 +20,7 @@ A modern, full-stack clone of the Apollo 24/7 doctor consultation platform, buil
 ## 🖼️ Application Screenshots
 
 ### 🏠 Landing Page
-![Landing Page](public/screenshots/Screenshot%202025-05-01%20214622.png)
+![Landing Page](public/screenshots/Screenshot%202025-05-01%20214554.png)
 *The welcoming homepage with a clean, modern design and quick access to doctor search.*
 
 ### 👨‍⚕️ Doctor List
